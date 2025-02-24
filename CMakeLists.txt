@@ -1,5 +1,5 @@
-cmake_minimum_required(VERSION 3.0)
+cmake_minimum_required(VERSION 3.5)
 project(Glad)
 
-add_library(glad include/glad/gl.h include/KHR/khrplatform.h src/gl.c)
+add_library(glad include/glad/glad.h include/KHR/khrplatform.h src/gl.c)
 target_include_directories(glad PUBLIC include)
